@@ -20,7 +20,7 @@
     <ul>
         <li><a href="/" on:click={drawerClose}>Notes</a></li>
         <li><a href="/album" on:click={drawerClose}>Album</a></li>
-        <li><a href="/?test=2" on:click={drawerClose}>Other Page 2</a></li>
+        <li><a href="/movies" on:click={drawerClose}>Movies</a></li>
         <li><a href="/?test=3" on:click={drawerClose}>Other Page 3</a></li>
     </ul>
 </nav>
