@@ -13,4 +13,4 @@ the input variable in the parent component (index.svelte). -->
   export let input: string
 </script>
 
-<input type="text" bind:value={input} />
+<input type="text"  bind:value={input} />
