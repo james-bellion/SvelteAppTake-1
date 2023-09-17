@@ -21,7 +21,7 @@
         <li><a href="/" aria-current={$page.url.pathname === '/'} on:click={drawerClose}>Notes</a></li>
         <li><a href="/album" aria-current={$page.url.pathname === '/album'} on:click={drawerClose}>Album</a></li>
         <li><a href="/movies" aria-current={$page.url.pathname === '/movies'} on:click={drawerClose}>Movies</a></li>
-        <li><a href="/?test=3" on:click={drawerClose}>Other Page 3</a></li>
+        <li><a href="/statemanagement" class="text-sm" aria-current={$page.url.pathname === '/statemanagement'} on:click={drawerClose}>Svelte State Management</a></li>
     </ul>
 </nav>
 
