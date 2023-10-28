@@ -22,7 +22,8 @@
         <li><a href="/album" aria-current={$page.url.pathname === '/album'} on:click={drawerClose}>Album</a></li>
         <li><a href="/movies" aria-current={$page.url.pathname === '/movies'} on:click={drawerClose}>Movies</a></li>
         <li><a href="/statemanagement" class="text-sm" aria-current={$page.url.pathname === '/statemanagement'} on:click={drawerClose}>Svelte State Management</a></li>
-    </ul>
+        <li><a href="/burgers" class="text-sm" aria-current={$page.url.pathname === '/burgers'} on:click={drawerClose}>Burgers</a></li>
+      </ul>
 </nav>
 
 <!-- aria-current={$page.url.pathname === '/'} usefull for accessibility and css if you want to know what page your on to  -->
